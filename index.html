@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+
+        }
+        .container{
+            height: 100vh;
+            width: 100%;
+            background-image: url("./background.png");
+           background-size:cover;
+           background-position: center;
+           position: relative;
+        }
+        .content{
+            width: 88%;
+            margin: auto;
+            position: relative;
+            z-index: 2;
+        }
+        .logo{
+            width: 100px;
+            margin-top: 30px;
+        }
+        hr{
+            border: none;
+            max-width: 280px;
+            background: #ffa1a1;
+            margin-top: 6px;
+            height: 6px;
+        }
+        h1{
+            font-size: 180px;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            font-weight: 100;
+            line-height: 160px;
+            color: #cfcfcf;
+        }
+        p{
+            max-width: 480px;
+            color: #919191;
+            letter-spacing: 1px;
+            list-style: 20px;
+            font-size: 14px;
+        }
+        .button{
+            color: #fff;
+            text-decoration: none;
+            border: 1px solid #fff;
+            letter-spacing: 1px;
+            padding: 10px 20px;
+            border-radius: 30px;
+            display: inline-block;
+            margin-top: 7px;
+        }
+        .button:hover{
+            background: #ffa1a1;
+            border-color: #ffa1a1;
+            color: #000;
+        }
+        .button2{
+            float: right;
+        }
+        .navbar{
+            width: 30%;
+            /* max-width: ; */
+            height: 100vh;
+            background: rgba(0, 0,0,0.8 );
+            position: absolute;
+            top: 0%;
+            left: 0px;
+            z-index: 1;
+        backdrop-filter: blur(10px);
+        }
+        .menu{
+            position: absolute;
+            width: 80px;
+            right: 0;
+            top: 0%;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="./menu.png" class="menu" alt="">
+        <div class="content">
+            <img src="./logo.png" class="logo" alt="">
+            <hr>
+            <h1>The <br>Verse</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus reiciendis iste optio, itaque laboriosam placeat officiis iusto repellat excepturi odit vero aut  laudantium blanditiis.</p>
+       <a href="#" class="button"> Submit</a>
+       <a href="#" class="button button2"> Submit</a>
+        </div>
+<div class="navbar"></div>
+    </div>
+</body>
+</html>
